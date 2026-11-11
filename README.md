@@ -1,4 +1,4 @@
-# 🔁 Parti dal perché
+# 🔁 Reverse: parti dal perché
 
 Una skill per Claude che **prima di fare un compito capisce perché va fatto e com'è fatta bene quella cosa**, poi esegue e controlla il risultato.
 
@@ -68,9 +68,9 @@ Richiesta: *"Fammi un tool che faccia risparmiare tempo a uno studio da commerci
 
 **Su Claude Code**
 ```bash
-git clone https://github.com/Iaco17/parti-dal-perche.git
+git clone https://github.com/Iaco17/reverse-claude-skill.git
 mkdir -p ~/.claude/skills
-cp -r parti-dal-perche/reverse ~/.claude/skills/reverse
+cp -r reverse-claude-skill/reverse ~/.claude/skills/reverse
 ```
 
 ## Struttura

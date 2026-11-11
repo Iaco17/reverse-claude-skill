@@ -23,6 +23,27 @@ Questa skill lo costringe a fare un passo indietro, come farebbe una persona esp
 
 Nei compiti piccoli salta i controlli A e B, così non diventa lenta.
 
+## Perché questa e non un'altra
+
+Esistono già skill famose che fanno "pensare Claude prima di agire". Questa nasce perché nessuna di quelle fa il giro completo.
+
+| Skill | Cosa fa | Cosa le manca rispetto a Reverse |
+|---|---|---|
+| **First principles thinking** (ce ne sono decine) | Ti guida con domande a ragionare sulle verità fondamentali di un problema | Ti aiuta a pensare, ma non costruisce niente |
+| **Working backwards** | Il metodo di Amazon: parte dal cliente e risale al prodotto | È pensata per il product management, non per un'app, una repo o un progetto d'esame |
+| **Success criteria / goal-driven** | Fissano cosa vuol dire "fatto" prima di partire | I criteri li deve dare l'utente, e sono quasi sempre pensate per il codice |
+| **Superpowers: brainstorming** | Prima di scrivere codice ti fa domande e scrive un documento di design | Vale solo per il codice e le risposte le chiede a te: non va a cercare com'è fatto bene |
+
+**Cosa fa di diverso**
+- **Va a cercare fuori i criteri** invece di chiederli a te. Se non sai come lavora uno studio da commercialista, non puoi spiegarlo a Claude: Reverse lo scopre da sola.
+- **Pensa a tutti quelli che giudicano**, non solo a chi userà il risultato: chi paga, chi ci lavora insieme, privacy e vincoli legali.
+- **Non si fida di se stessa**: pre-mortem prima di costruire, verifica fatta da un agente separato, report con i ⚠️ invece di "tutto perfetto".
+- **Vale per qualsiasi lavoro che verrà giudicato**: app, repo, profili, progetti d'esame. Non solo codice.
+
+**Quando conviene usare le altre**
+- **Programmi seriamente in Claude Code** → Superpowers ha un sistema di test e verifica sul codice molto più completo, ed è usata da migliaia di persone.
+- **Devi solo ragionare su un problema**, senza costruire niente → una skill di first principles basta ed è più leggera.
+
 ## Quando parte
 
 - **Da sola** quando chiedi di creare o migliorare app, codice, repo, profili GitHub o progetti d'esame

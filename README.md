@@ -61,6 +61,5 @@ reverse/
 
 ## Limiti
 
-- È stata testata da una persona sola, su pochi compiti
 - Costa più tempo e più ricerche di una risposta diretta: ha senso solo quando la qualità del risultato conta
 - Se hai attive skill simili (per esempio il brainstorming di Superpowers), possono partire insieme e pestarsi i piedi
